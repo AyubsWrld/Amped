@@ -1,20 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Dashboard from './components/Dashboard.js' ; 
+import { StyleSheet, View } from 'react-native';
+import Dashboard from './screens/Dashboard'; 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Dashboard/> 
+      <StatusBar style="light" />
+      <Dashboard /> 
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex: 1, 
+    backgroundColor: '#070707', 
+
   },
 });
+
