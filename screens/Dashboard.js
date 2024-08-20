@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     gap: 16,
     flexDirection: 'column',
     paddingBottom: 0,
-    maxHeight: 185,
+    maxHeight: 175,
   },
   cardContainer: {
     flex: 1,
@@ -117,3 +117,4 @@ const styles = StyleSheet.create({
     gap: 12,
   },
 });
+
